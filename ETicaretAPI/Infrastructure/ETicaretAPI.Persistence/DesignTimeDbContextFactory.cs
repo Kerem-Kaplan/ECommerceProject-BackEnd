@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using ETicaretAPI.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 namespace ETicaretAPI.Persistence
 {
@@ -13,9 +14,10 @@ namespace ETicaretAPI.Persistence
     {
         public ETicaretAPIDbContext CreateDbContext(string[] args)
         {
+
+
             DbContextOptionsBuilder<ETicaretAPIDbContext> dbContextOptionsBuilder = new();
-            dbContextOptionsBuilder.UseNpgsql(
-                "User ID=postgres;Password=12345;Host=localhost;Port=5432;Database=ETicaretAPIDb;");
+            dbContextOptionsBuilder.UseNpgsql(Configuration.ConnectionString);
             return new ETicaretAPIDbContext(dbContextOptionsBuilder.Options);
         }
     }
