@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sHc9HqR63XIGk5O2i+VFiahpDdTaj65M9JOp5LmbvIDqrnvzV9KlHhv/t0J0QjY7AC+b+hEayXphsfltHbk+kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kerem\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kerem\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\kerem\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\kerem\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
