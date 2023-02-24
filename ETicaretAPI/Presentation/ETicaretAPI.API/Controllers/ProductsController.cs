@@ -37,6 +37,11 @@ namespace ETicaretAPI.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(VM_Product_Create model)
         {
+
+            if (ModelState.IsValid)
+            {
+
+            }
             await _productWriteRepository.AddAsync(new()
             {
                 Name = model.Name,

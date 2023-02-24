@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Stji3DLO1pp5mqbTWVCnAwbYAR601fmAMjJBT/VXjp9jHmF5UBKDPuoRtPF4v8hqcwGQTC6okpafV6XtDbqbzg==",
+  "dgSpecHash": "EjPDtht9kgEydVNVQ162g+uIHIBGZqF6CFWjGOTSThLZiMN6e0/mIEMa8oLgJm80w0hxjCBLCp/9tvHE42qfvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kerem\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\kerem\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\kerem\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\kerem\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kerem\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\kerem\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
