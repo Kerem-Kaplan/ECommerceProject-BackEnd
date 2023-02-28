@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VGXM7Be0l/3fEGMteWs6XhNjJ5y59i+o6xg4CZBwe2cEPk+QHSEelnulhWvI7HEMO+5jXl2jb5rF9NdRHjiDRg==",
+  "dgSpecHash": "sk6PIM05lD5v3U9VcJ8Mf1+UqQm+Pucbo5W7S/mpdZDhWi8TvcviKE0u6S8NGhqze4jl5jNSv+VVmIIMEv9HMw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
   "expectedPackageFiles": [
@@ -36,10 +36,7 @@
     "C:\\Users\\kerem\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\kerem\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\kerem\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\kerem\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\kerem\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\kerem\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\kerem\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
+    "C:\\Users\\kerem\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
