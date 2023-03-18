@@ -65,11 +65,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/7.0.2": {
+      "Microsoft.EntityFrameworkCore/7.0.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.2",
-          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.2",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.4",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
@@ -88,7 +88,7 @@
           "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/7.0.2": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.4": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -101,7 +101,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.2": {
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -214,26 +214,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Configuration/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Primitives": "7.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Microsoft.Extensions.Configuration.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Configuration.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -246,52 +226,6 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.FileExtensions/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
-          "Microsoft.Extensions.FileProviders.Physical": "7.0.0",
-          "Microsoft.Extensions.Primitives": "7.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.Json/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Configuration.FileExtensions": "7.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
-          "System.Text.Json": "7.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Microsoft.Extensions.Configuration.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Configuration.Json.dll": {
             "related": ".xml"
           }
         },
@@ -347,62 +281,6 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.DependencyModel.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "7.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.FileProviders.Physical/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
-          "Microsoft.Extensions.FileSystemGlobbing": "7.0.0",
-          "Microsoft.Extensions.Primitives": "7.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.FileSystemGlobbing/7.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
             "related": ".xml"
           }
         },
@@ -644,7 +522,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Text.Encodings.Web.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -670,7 +548,7 @@
           "System.Text.Encodings.Web": "7.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Text.Json.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -691,6 +569,7 @@
           "FluentValidation": "11.5.1",
           "FluentValidation.AspNetCore": "11.2.2",
           "FluentValidation.DependencyInjectionExtensions": "11.5.1",
+          "Microsoft.EntityFrameworkCore": "7.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -705,6 +584,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -720,8 +600,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "ETicaretAPI.Application": "1.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1",
-          "Swashbuckle.AspNetCore": "6.5.0"
+          "Microsoft.EntityFrameworkCore": "7.0.4"
         },
         "compile": {
           "bin/placeholder/ETicaretAPI.Infrastructure.dll": {}
@@ -735,12 +614,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "ETicaretAPI.Application": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "7.0.2",
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Json": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1",
-          "Swashbuckle.AspNetCore": "6.5.0"
+          "Microsoft.EntityFrameworkCore": "7.0.4"
         },
         "compile": {
           "bin/placeholder/ETicaretAPI.Persistence.dll": {}
@@ -829,10 +703,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.EntityFrameworkCore/7.0.2": {
-      "sha512": "5QEspjTHk/cgM98AaB12mDXF7jlInlYhG0gxS6X8ZJ2rzmyIAsvYNEwoOUifd/gt5v5HblYClYfZ9YYIEjSkew==",
+    "Microsoft.EntityFrameworkCore/7.0.4": {
+      "sha512": "eNcsY3rft5ERJJcen80Jyg57EScjWZmvhwmFLYXmEOTdVqHG+wQZiMOXnO1b5RH3u2qTQq+Tpci7KGfLAG5Gtg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/7.0.2",
+      "path": "microsoft.entityframeworkcore/7.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -840,35 +714,35 @@
         "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/7.0.2": {
-      "sha512": "nszewdtuQAk2DbhNnGssRCYVxyBhm0DZHJobU8Bc4RGPuybraCv/lovFWPUeZlTT3bQndyV8Ko2NHKSc4qsKCg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.4": {
+      "sha512": "6GbYvs4L5oFpYpMzwF05kdDgvX09UmMX7MpDtDlGI5ymijFwquwv+yvdijbtodOuu0yLUpc4n71x6eBdJ8v1xQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/7.0.2",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.2": {
-      "sha512": "75dDCNXzoQFM86Mk/iY7lQ+XHb2DbpAh53hbAJUlxkL3XUVoCq6rWgO4y1EX7DdyKMF61dsdEKlF4/bmpi4urA==",
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.4": {
+      "sha512": "YRD4bViuaEPEsaBIL52DzXGzLCt3jYoE3wztYEW1QZYDl89hQ+ca0nvBO2mnMHmCXpU/2wlErrUyDp4x5B/3mg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.2",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -1211,33 +1085,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration/7.0.0": {
-      "sha512": "tldQUBWt/xeH2K7/hMPPo5g8zuLc3Ro9I5d4o/XrxvxOCA2EZBtW7bCHHTc49fcBtvB8tLAb/Qsmfrq+2SJ4vA==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Configuration.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.targets",
-        "lib/net462/Microsoft.Extensions.Configuration.dll",
-        "lib/net462/Microsoft.Extensions.Configuration.xml",
-        "lib/net6.0/Microsoft.Extensions.Configuration.dll",
-        "lib/net6.0/Microsoft.Extensions.Configuration.xml",
-        "lib/net7.0/Microsoft.Extensions.Configuration.dll",
-        "lib/net7.0/Microsoft.Extensions.Configuration.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.7.0.0.nupkg.sha512",
-        "microsoft.extensions.configuration.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
       "sha512": "f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
       "type": "package",
@@ -1262,62 +1109,6 @@
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.Configuration.FileExtensions/7.0.0": {
-      "sha512": "xk2lRJ1RDuqe57BmgvRPyCt6zyePKUmvT6iuXqiHR+/OIIgWVR8Ff5k2p6DwmqY8a17hx/OnrekEhziEIeQP6Q==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.fileextensions/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Configuration.FileExtensions.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.FileExtensions.targets",
-        "lib/net462/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "lib/net462/Microsoft.Extensions.Configuration.FileExtensions.xml",
-        "lib/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "lib/net6.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
-        "lib/net7.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "lib/net7.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
-        "microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
-        "microsoft.extensions.configuration.fileextensions.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.Configuration.Json/7.0.0": {
-      "sha512": "LDNYe3uw76W35Jci+be4LDf2lkQZe0A7EEYQVChFbc509CpZ4Iupod8li4PUXPBhEUOFI/rlQNf5xkzJRQGvtA==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.json/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Configuration.Json.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Json.targets",
-        "lib/net462/Microsoft.Extensions.Configuration.Json.dll",
-        "lib/net462/Microsoft.Extensions.Configuration.Json.xml",
-        "lib/net6.0/Microsoft.Extensions.Configuration.Json.dll",
-        "lib/net6.0/Microsoft.Extensions.Configuration.Json.xml",
-        "lib/net7.0/Microsoft.Extensions.Configuration.Json.dll",
-        "lib/net7.0/Microsoft.Extensions.Configuration.Json.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
-        "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll",
-        "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.xml",
-        "microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
-        "microsoft.extensions.configuration.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1404,87 +1195,6 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
         "microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
-      "sha512": "NyawiW9ZT/liQb34k9YqBSNPLuuPkrjMgQZ24Y/xXX1RoiBkLUdPMaQTmxhZ5TYu8ZKZ9qayzil75JX95vGQUg==",
-      "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Abstractions.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Abstractions.targets",
-        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
-        "microsoft.extensions.fileproviders.abstractions.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.FileProviders.Physical/7.0.0": {
-      "sha512": "K8D2MTR+EtzkbZ8z80LrG7Ur64R7ZZdRLt1J5cgpc/pUWl0C6IkAUapPuK28oionHueCPELUqq0oYEvZfalNdg==",
-      "type": "package",
-      "path": "microsoft.extensions.fileproviders.physical/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Physical.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Physical.targets",
-        "lib/net462/Microsoft.Extensions.FileProviders.Physical.dll",
-        "lib/net462/Microsoft.Extensions.FileProviders.Physical.xml",
-        "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll",
-        "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "lib/net7.0/Microsoft.Extensions.FileProviders.Physical.dll",
-        "lib/net7.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
-        "microsoft.extensions.fileproviders.physical.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.FileSystemGlobbing/7.0.0": {
-      "sha512": "2jONjKHiF+E92ynz2ZFcr9OvxIw+rTGMPEH+UZGeHTEComVav93jQUWGkso8yWwVBcEJGcNcZAaqY01FFJcj7w==",
-      "type": "package",
-      "path": "microsoft.extensions.filesystemglobbing/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.FileSystemGlobbing.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileSystemGlobbing.targets",
-        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
-        "microsoft.extensions.filesystemglobbing.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1977,8 +1687,13 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "ETicaretAPI.Application >= 1.0.0",
+      "ETicaretAPI.Domain >= 1.0.0",
       "ETicaretAPI.Infrastructure >= 1.0.0",
       "ETicaretAPI.Persistence >= 1.0.0",
+      "FluentValidation >= 11.5.1",
+      "FluentValidation.AspNetCore >= 11.2.2",
+      "FluentValidation.DependencyInjectionExtensions >= 11.5.1",
+      "Microsoft.EntityFrameworkCore >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.1",
@@ -1992,11 +1707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+      "projectUniqueName": "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
       "projectName": "ETicaretAPI.API",
-      "projectPath": "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+      "projectPath": "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
       "packagesPath": "C:\\Users\\kerem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\obj\\",
+      "outputPath": "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2018,14 +1733,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
+            "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
             },
-            "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ETicaretAPI.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ETicaretAPI.Infrastructure.csproj"
+            "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj"
             },
-            "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj": {
-              "projectPath": "C:\\Users\\kerem\\Source\\Repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj"
+            "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ETicaretAPI.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ETicaretAPI.Infrastructure.csproj"
+            },
+            "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj": {
+              "projectPath": "C:\\Users\\kerem\\source\\repos\\Kerem-Kaplan\\ECommerceProject-BackEnd\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj"
             }
           }
         }
@@ -2040,6 +1758,22 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.5.1, )"
+          },
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[11.2.2, )"
+          },
+          "FluentValidation.DependencyInjectionExtensions": {
+            "target": "Package",
+            "version": "[11.5.1, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.4, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -2080,7 +1814,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
